@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     hello: '👋',
-    who: 'A human first UI/UX designer Ready to help!kjkj ',
+    who: 'A human first UI/UX designer Ready to help! ',
   },
 
   plugins: [
