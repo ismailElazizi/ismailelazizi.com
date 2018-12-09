@@ -13,7 +13,7 @@ const IndexPage = ({data }) => (
     <div className='hero-section' >
         <div className="container">
             <Header></Header>
-        </div>
+        </div> 
     </div>   
     
 
