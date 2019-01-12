@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => (
 
     <div class="divided-23" />
     <div className="callAction">
-      <h1 className="mainH contactH">Got A Project To Discuss?</h1>
+      <h1 className="mainH contactH">Got A Project To Discuss????</h1>
       <div>Got a project in mind? Tell us more about it in this form:</div>
       <Link to="/" className="btn-get-start">
         Get started now
