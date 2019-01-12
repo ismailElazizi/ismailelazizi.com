@@ -4,6 +4,17 @@ module.exports = {
     who: 'A human first UI/UX designer Ready to help! ',
   },
 
+
+
+  plugins: [
+    {
+     resolve: `gatsby-plugin-typography`,
+     options: {
+       pathToConfigModule: `src/utils/typography`,
+     }
+    }
+   ],
+
   plugins: [
     'gatsby-plugin-react-helmet',
     {
@@ -20,9 +31,6 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
-
-
-
 
   plugins: [
     {

@@ -2,13 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image";
 
-const PostLink = ({ post }) => (
+const PostLink = ({ post:{frontmatter:{path,title,type,cover_image}} }) => (
   <div className= 'project-item'>
-    <a href={post.frontmatter.path}>
-      <Img fluid={post.frontmatter.cover_image.childImageSharp.fluid}/>
-      <br/>
-      <p>{post.frontmatter.type}</p> 
-      <p>{post.frontmatter.title}</p>
+    <a className="project-link" href={path} target="_blank">
+      <Img className="coverImg" fluid={cover_image.childImageSharp.fluid}/>
+      <span className="project-title" >{title}</span>
+      <span className="project-type">{type}</span> 
     </a>
   </div>
 )
