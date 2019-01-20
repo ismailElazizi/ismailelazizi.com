@@ -1,19 +1,17 @@
 module.exports = {
   siteMetadata: {
     hello: '👋',
-    who: 'A human first UI/UX designer Ready to help! ',
+    who: 'A human first UI/UX designer, Ready to help!',
   },
-
-
 
   plugins: [
     {
-     resolve: `gatsby-plugin-typography`,
-     options: {
-       pathToConfigModule: `src/utils/typography`,
-     }
-    }
-   ],
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+  ],
 
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -37,7 +35,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/`,
-        name: "src",
+        name: 'src',
       },
     },
     `gatsby-transformer-remark`,
@@ -50,6 +48,5 @@ module.exports = {
         maxWidth: 1080,
       },
     },
-  ]
-  
+  ],
 }
