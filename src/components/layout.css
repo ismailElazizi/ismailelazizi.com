@@ -95,7 +95,7 @@ input#checkbox {
   }
   .menu_ele {
     display: -webkit-box;
-    padding: 18px 0;
+    padding: 12px 0;
     font-size: 1rem;
   }
   .menu-content {
@@ -112,7 +112,7 @@ input#checkbox {
     padding-bottom: 12px;
   }
   input:checked ~ .menu-content {
-    margin-top: 44px;
+    margin-top: 36px;
     height: 100%;
   }
 
@@ -233,9 +233,10 @@ input#checkbox {
 }
 
 .callAction {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
 .contactH {
@@ -246,13 +247,15 @@ input#checkbox {
 
 .btn-get-start {
   display: -webkit-inline-box;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   background-color: #ffffff;
-  margin-top: 3rem;
-  font-size: 18px;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: 700;
   text-decoration: none;
   color: #000;
   transition: all 0.8s ease-in-out;
@@ -270,9 +273,9 @@ input#checkbox {
   }
 }
 .divided-23 {
-  border: 0.4px solid #333333;
-  margin-bottom: 4rem;
-  margin-top: 3rem;
+  border: 0.5px solid #333333;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 .footer-container {
