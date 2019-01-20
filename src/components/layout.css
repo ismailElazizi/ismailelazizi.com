@@ -54,7 +54,7 @@ body {
   padding: 0px 18px;
   text-decoration: none;
   font-weight: 800;
-  font-size: 11px;
+  font-size: 0.68rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -94,7 +94,9 @@ input#checkbox {
     align-items: flex-end;
   }
   .menu_ele {
+    display: -webkit-box;
     padding: 18px 0;
+    font-size: 1rem;
   }
   .menu-content {
     height: 0;
@@ -110,8 +112,8 @@ input#checkbox {
     padding-bottom: 12px;
   }
   input:checked ~ .menu-content {
-    margin-top: 24px;
-    height: 128px;
+    margin-top: 44px;
+    height: 100%;
   }
 
   input:checked ~ #burger span:nth-child(2) {
