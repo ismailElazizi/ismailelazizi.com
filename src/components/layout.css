@@ -11,18 +11,6 @@ body {
   margin: 0 auto;
 }
 
-.hero-section {
-  background-color: #000000;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1.75rem;
-  margin: 0px auto;
-}
-
 .padd-css {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -34,109 +22,6 @@ body {
     padding-right: 4.5rem;
     padding-top: 2.5rem;
   }
-}
-
-/* Menu  */
-
-.dropdown-menu {
-  display: flex;
-}
-.dropdown-menu ul {
-  list-style-type: none;
-  display: flex;
-  align-content: stretch;
-  padding: 0px;
-  margin: 0px;
-}
-
-.menu_ele {
-  color: white;
-  padding: 0px 18px;
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 0.68rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-input#checkbox {
-  display: none;
-}
-#burger {
-  display: none;
-}
-.dropdown-menu ul li .menu_ele:hover {
-  text-decoration: underline;
-}
-
-#burger span {
-  background: #ffffff;
-  display: block;
-  width: 28px;
-  height: 3px;
-  margin-bottom: 6px;
-  position: relative;
-  top: 0;
-  transition: all ease-in-out 0.4s;
-}
-#burger span:nth-child(3) {
-  margin-bottom: 0;
-}
-
-@media (max-width: 540px) {
-  #burger {
-    display: block;
-  }
-
-  .dropdown-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  .menu_ele {
-    display: -webkit-box;
-    padding: 12px 0;
-    font-size: 1rem;
-  }
-  .menu-content {
-    height: 0;
-    overflow: hidden;
-    transition: all ease-out 0.2s;
-  }
-  .dropdown-menu ul {
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 0px;
-  }
-  .dropdown-menu ul li {
-    padding-bottom: 12px;
-  }
-  input:checked ~ .menu-content {
-    margin-top: 36px;
-    height: 100%;
-  }
-
-  input:checked ~ #burger span:nth-child(2) {
-    width: 0;
-    opacity: 0;
-  }
-  input:checked ~ #burger span:nth-child(1) {
-    transform: rotate(45deg);
-    top: 9px;
-    width: 28px;
-  }
-  input:checked ~ #burger span:nth-child(3) {
-    transform: rotate(-45deg);
-    top: -9px;
-    width: 28px;
-  }
-
-  .header {
-    align-items: unset;
-  }
-}
-.logo a {
-  display: block;
 }
 
 .who {
@@ -312,6 +197,19 @@ input#checkbox {
 
 .social_links a:nth-child(1) {
   padding-left: 0;
+}
+
+.sign-12 {
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+  display: -webkit-inline-box;
+  color: #808080;
+}
+
+.divided-end {
+  border: 0.5px solid #333333;
+  margin-bottom: 0.6rem;
+  margin-top: 5rem;
 }
 
 /*

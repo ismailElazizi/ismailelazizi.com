@@ -3,7 +3,7 @@ import logo from '../images/logo.svg'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-import Header from './header'
+import Header from './Header'
 import './layout.css'
 
 const Layout = ({ children }) => (

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
-import Project from '../components/project'
-import Header from '../components/header'
+import Layout from '../components/Layout'
+import Project from '../components/PostLink'
+import Header from '../components/Header'
 import typography from '../utils/typography'
 
 import facebook from '../images/facebook.svg'
@@ -76,6 +76,8 @@ const IndexPage = ({ data }) => (
         </div>
       </div>
     </div>
+    <div className="divided-end" />
+    <span className="sign-12">Designed and developed by © Ismail El Azizi</span>
   </Layout>
 )
 
