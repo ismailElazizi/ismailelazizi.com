@@ -77,7 +77,7 @@ const IndexPage = ({ data }) => (
       </div>
     </div>
     <div className="divided-end" />
-    <span className="sign-12">Designed and developed by © Ismail El Azizi</span>
+    <span className="sign-12">Designed and developed by © Ismail ElAzizi</span>
   </Layout>
 )
 
