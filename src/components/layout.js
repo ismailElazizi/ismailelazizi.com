@@ -1,8 +1,5 @@
-import React from 'react'
-import logo from '../images/logo.svg'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
-
+import React from 'react'
 import Header from './Header'
 import './layout.css'
 

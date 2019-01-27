@@ -1,18 +1,14 @@
+import { graphql, Link } from 'gatsby'
 import React from 'react'
-import { Link } from 'gatsby'
-import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Project from '../components/PostLink'
-import Header from '../components/Header'
-import typography from '../utils/typography'
-
-import facebook from '../images/facebook.svg'
 import behance from '../images/behance.svg'
-import instagram from '../images/instagram.svg'
-import medium from '../images/medium.svg'
 import dribbble from '../images/dribbble.svg'
-import linkedin from '../images/linkedin.svg'
+import facebook from '../images/facebook.svg'
 import github from '../images/github.svg'
+import instagram from '../images/instagram.svg'
+import linkedin from '../images/linkedin.svg'
+import medium from '../images/medium.svg'
 import twitter from '../images/twitter.svg'
 
 const IndexPage = ({ data }) => (
