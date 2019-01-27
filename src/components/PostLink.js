@@ -1,13 +1,17 @@
-import React from "react"
-import { Link } from "gatsby"
-import Img from "gatsby-image";
+import React from 'react'
+import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 
-const PostLink = ({ post:{frontmatter:{path,title,type,cover_image}} }) => (
-  <div className= 'project-item'>
-    <a className="project-link" href={path} target="_blank">
-      <Img className="coverImg" fluid={cover_image.childImageSharp.fluid}/>
-      <span className="project-title" >{title}</span>
-      <span className="project-type">{type}</span> 
+const PostLink = ({
+  post: {
+    frontmatter: { path, title, type, cover_image },
+  },
+}) => (
+  <div className="post-item">
+    <a className="post-link" href={path} target="_blank">
+      <Img className="coverImg" fluid={cover_image.childImageSharp.fluid} />
+      <span className="post-title">{title}</span>
+      <span className="post-type">{type}</span>
     </a>
   </div>
 )

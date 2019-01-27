@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     hello: '👋',
-    who: 'A human first UI/UX designer, Ready to help!',
+    who: 'A human first, UI/UX designer. Ready to help!',
   },
 
   plugins: [
@@ -28,6 +28,17 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+  ],
+
+  // Medium source
+  plugins: [
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@ismailelazizi`,
+        limit: 200,
+      },
+    },
   ],
 
   plugins: [

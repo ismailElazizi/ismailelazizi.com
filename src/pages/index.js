@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => (
       </h1>
     </div>
 
-    <div className="projects-wrapper">
+    <div className="posts-wrapper">
       {data.allMarkdownRemark.edges.map(elment => (
         <Project key={elment.node.id} post={elment.node} />
       ))}
