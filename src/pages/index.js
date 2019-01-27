@@ -1,7 +1,7 @@
 import { graphql, Link } from 'gatsby'
 import React from 'react'
 import Layout from '../components/layout'
-import Project from '../components/postLink'
+import Project from '../components/project'
 import behance from '../images/behance.svg'
 import dribbble from '../images/dribbble.svg'
 import facebook from '../images/facebook.svg'

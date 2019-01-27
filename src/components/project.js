@@ -1,7 +1,7 @@
 import Img from 'gatsby-image'
 import React from 'react'
 
-const PostLink = ({
+const Project = ({
   post: {
     frontmatter: { path, title, type, cover_image },
   },
@@ -15,4 +15,4 @@ const PostLink = ({
   </div>
 )
 
-export default PostLink
+export default Project
