@@ -1,12 +1,25 @@
 module.exports = {
   siteMetadata: {
     hello: '👋',
-    who: 'A human first UI/UX designer Ready to help! ',
+    who: 'I help people design friendly website & application',
   },
 
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@ismailelazizi`,
+        limit: 200,
+      },
+    },
+    'gatsby-plugin-react-helmet',
+    /* {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
@@ -17,19 +30,13 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
-    },
+    }, */
     'gatsby-plugin-offline',
-  ],
-
-
-
-
-  plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/`,
-        name: "src",
+        path: `${__dirname}/src/projects`,
+        name: 'projects',
       },
     },
     `gatsby-transformer-remark`,
@@ -42,6 +49,5 @@ module.exports = {
         maxWidth: 1080,
       },
     },
-  ]
-  
+  ],
 }
