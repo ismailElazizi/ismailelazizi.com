@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => (
     <div className="footer-container">
       <div className="w-full sm-w1-2">
         <h1 className="mainH">Email me at:</h1>
-        <div>hello@ismail.com</div>
+        <p>hello@ismail.com</p>
       </div>
       <div className="w-full sm-w1-2">
         <h1 className="mainH">Follow Me:</h1>
@@ -80,7 +80,7 @@ const IndexPage = ({ data }) => (
 export default IndexPage
 
 export const pageQuery = graphql`
-  query FirstQuery {
+  query {
     allMarkdownRemark {
       edges {
         node {

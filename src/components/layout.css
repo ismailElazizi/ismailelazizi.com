@@ -7,8 +7,10 @@ body {
   background-color: rgb(0, 0, 0);
   color: #ffffff;
   font-family: 'Muli', sans-serif;
-
   margin: 0 auto;
+}
+p {
+  color: #ffffff;
 }
 
 .padd-css {
@@ -47,7 +49,12 @@ body {
 @media (min-width: 750px) {
   .mainH {
     font-size: 2.14355rem;
-    width: 26rem;
+    width: 29rem;
+  }
+}
+@media (min-width: 750px) {
+  .post-item {
+    margin-bottom: 3rem;
   }
 }
 

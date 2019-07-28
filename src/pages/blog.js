@@ -1,23 +1,23 @@
+import { graphql } from 'gatsby'
 import React from 'react'
+import Article from '../components/article'
 import Layout from '../components/layout'
 
 const BlogPage = ({ data }) => (
   <Layout>
     <div className="who">
       <h1 className="mainH">Blog</h1>
-      <p>
-        Ok. I know you are busy so I'll get straight to the point. I am a
-        passionate UI/UX designer from Morocco. We help people create friendly
-        website and application. That's it really. But if you want to know more
-        you can click on some links. Or don't. It's your life.
-      </p>
+      <p>Ok. I know you are busy so I'll get straight to the point.</p>
+    </div>
+    <div className="posts-wrapper">
+      {data.allMediumPost.edges.map(elment => (
+        <Article key={elment.node.id} post={elment.node} />
+      ))}
     </div>
   </Layout>
 )
 
 export default BlogPage
-
-/*
 export const pageQuery = graphql`
   query {
     allMediumPost(sort: { fields: [createdAt], order: DESC }) {
@@ -25,6 +25,7 @@ export const pageQuery = graphql`
         node {
           id
           title
+          uniqueSlug
           virtuals {
             previewImage {
               imageId
@@ -35,4 +36,3 @@ export const pageQuery = graphql`
     }
   }
 `
-*/
