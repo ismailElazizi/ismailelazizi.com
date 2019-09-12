@@ -1,0 +1,12 @@
+- name: ismail
+  bio: |
+    Written by You. This is where your author bio lives. Share your work, your
+    joys and of course, your Twitter handle.
+  avatar: ./hero.png
+  featured: true
+  social:
+    - url: https://unsplash.com
+    - url: https://facebook.com
+    - url: https://twitter.com
+    - url: https://github.com
+    - url: https://github.com

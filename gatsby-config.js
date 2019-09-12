@@ -2,6 +2,34 @@ module.exports = {
   siteMetadata: {
     hello: '👋',
     who: 'I help people design friendly website & application',
+    title: 'test',
+    name: `Narative`,
+    siteUrl: `https://gatsby-theme-novela.netlify.com`,
+    description: `This is my description that will be used in the meta tags and important for search results`,
+
+    // hero
+    // A required key and will be displayed on the main page of Noveal
+    hero: {
+      heading: `test on technology, design and business from the team at Narative.`,
+      maxWidth: 652,
+    },
+
+    // social
+    // Add in the social links that will be displayed in the footer
+    social: [
+      {
+        url: `https://twitter.com/narative`,
+      },
+      {
+        url: `https://github.com/narative`,
+      },
+      {
+        url: `https://www.instagram.com/narative.co/`,
+      },
+      {
+        url: `https://dribbble.com/narativestudio`,
+      },
+    ],
   },
 
   plugins: [
@@ -11,14 +39,20 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-medium`,
+      resolve: '@narative/gatsby-theme-novela',
       options: {
-        username: `@ismailelazizi`,
-        limit: 200,
+        contentPath: 'blog/posts',
+        contentPosts: 'blog/posts',
+        contentAuthors: 'blog/authors',
+        basePath: 'blog/',
+        authorsPage: true,
+        sources: {
+          local: true,
+        },
       },
     },
-    'gatsby-plugin-react-helmet',
     /* {
       resolve: `gatsby-plugin-manifest`,
       options: {
