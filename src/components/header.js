@@ -5,9 +5,9 @@ import './header.css'
 
 const Header = () => (
   <header className="header">
-    <div className="logo">
+    <div className="css-icons-sttl">
       <Link to="/">
-        <img src={logo} className="logo" />
+        <img src={logo} className="css-icons-sttl" />
       </Link>
     </div>
 

@@ -213,6 +213,7 @@ p {
 }
 
 .social_links {
+  align-items: left;
   display: flex;
   flex-wrap: wrap;
 }
@@ -224,10 +225,8 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 24px;
-  height: 24;
-  padding-right: 24px;
-  padding-bottom: 24px;
+  margin-right: 32px;
+  margin-bottom: 24px;
 }
 
 .social_links a:nth-child(1) {
@@ -252,6 +251,9 @@ p {
   font-size: 2.4rem;
   font-weight: 300;
   color: #ffffff;
+}
+.css-share-mail{
+ margin-left: 16px; 
 }
 
 .subtoto-depara{

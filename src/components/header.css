@@ -65,7 +65,7 @@ input#checkbox {
   }
   .menu_ele {
     display: -webkit-box;
-    padding: 12px 0;
+    padding: 20px 0;
     font-size: 1.6rem;
   }
   .menu-content {
@@ -105,6 +105,6 @@ input#checkbox {
     align-items: unset;
   }
 }
-.logo a {
+.css-icons-sttl a {
   display: block;
 }
