@@ -14,7 +14,7 @@ import twitter from '../images/twitter.svg'
 const IndexPage = ({ data }) => (
   <Layout>
     <div className="who">
-      <h1 className="mainH">
+      <h1 className="hero-css">
         <span role="img">{data.site.siteMetadata.hello}</span>
         <br />
         {data.site.siteMetadata.who}
@@ -29,20 +29,20 @@ const IndexPage = ({ data }) => (
 
     <div class="divided-23" />
     <div className="callAction">
-      <h1 className="mainH contactH">Got a project? Let’s talk</h1>
+      <h3 className="hero-css contactH">Got a project? Let’s talk</h3>
       <Link to="/" className="btn-get-start">
-        Tell me everything
+        Tell Me Everything
       </Link>
     </div>
 
     <div class="divided-23" />
     <div className="footer-container">
       <div className="w-full sm-w1-2">
-        <h1 className="mainH">Email me at:</h1>
-        <p>hello@ismail.com</p>
+        <h4 className="subtoto-depara">Email me at:</h4>
+        <h5 className="css-1uembe2-Paragraph" >hello@ismail.com</h5>
       </div>
       <div className="w-full sm-w1-2">
-        <h1 className="mainH">Follow Me:</h1>
+        <h4 className="subtoto-depara">Follow Me:</h4>
 
         <div className="social_links">
           <Link to="/" target="_blank">

@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1.75rem;
+  padding-top: 3rem;
   margin: 0px auto;
+  
 }
 /* Menu  */
 
@@ -23,8 +24,8 @@
   padding: 0px 18px;
   text-decoration: none;
   font-weight: 800;
-  font-size: 0.68rem;
-  letter-spacing: 0.08em;
+  font-size: 1.2rem;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
@@ -65,7 +66,7 @@ input#checkbox {
   .menu_ele {
     display: -webkit-box;
     padding: 12px 0;
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   .menu-content {
     height: 0;

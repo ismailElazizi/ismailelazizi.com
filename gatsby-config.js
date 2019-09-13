@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     hello: '👋',
-    who: 'I help people design friendly website & application',
-    title: 'test',
+    who: 'I Use Design Magic To Turn Ideas Into Great Products.',
+    title: 'Ismail Elazizi',
     name: `Narative`,
     siteUrl: `https://gatsby-theme-novela.netlify.com`,
     description: `This is my description that will be used in the meta tags and important for search results`,
@@ -33,12 +33,7 @@ module.exports = {
   },
 
   plugins: [
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+
     'gatsby-plugin-react-helmet',
     {
       resolve: '@narative/gatsby-theme-novela',
