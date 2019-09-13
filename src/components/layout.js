@@ -4,12 +4,10 @@ import Header from './header'
 import './layout.css'
 
 const Layout = ({ children }) => (
-  <html lang="en">
-    <div className="padd-css">
-      <Header />
-      {children}
-    </div>
-  </html>
+  <div className="padd-css">
+    <Header />
+    {children}
+  </div>
 )
 
 Layout.propTypes = {
