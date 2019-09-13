@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 4rem;
   margin: 0px auto;
   
 }
@@ -20,24 +20,40 @@
 }
 
 .menu_ele {
+  display: block;
   color: white;
-  padding: 0px 18px;
+  margin-left: 40px;
   text-decoration: none;
-  font-weight: 800;
-  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 12px;
+  font-size: 1.26rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.menu_ele::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  margin-top: 12px;
+  background: #fff;
+  transition: width .3s;
+}
+
+.dropdown-menu ul li .menu_ele:hover::after {
+  width: 50%;
+  transition: width .6s;
 }
 
 input#checkbox {
   display: none;
 }
+
 #burger {
   display: none;
 }
-.dropdown-menu ul li .menu_ele:hover {
-  text-decoration: underline;
-}
+
 
 #burger span {
   background: #ffffff;
