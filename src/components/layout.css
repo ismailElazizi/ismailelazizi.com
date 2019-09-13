@@ -222,7 +222,7 @@ p {
   .container{margin-right:auto;margin-left:auto;padding:0 1.66667rem;}
   @media screen and (min-width:768px) and (max-width:991.9px){.container,{padding:0 1.11111rem;}}
   @media screen and (max-width:543.9px){.container{padding:0 1.11111rem}}
-  
+
 
 */
 
@@ -419,7 +419,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  
+
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -831,7 +831,7 @@ code:after,
 tt:before,
 tt:after {
   letter-spacing: -0.2em;
-  content: " "; 
+  content: " ";
 }
 pre code:before,
 pre code:after,
