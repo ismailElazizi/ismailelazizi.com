@@ -1,5 +1,6 @@
 import { graphql, Link } from 'gatsby'
 import React from 'react'
+import Email from '../components/email'
 import Layout from '../components/layout'
 import Project from '../components/project'
 import behance from '../images/behance.svg'
@@ -9,7 +10,6 @@ import github from '../images/github.svg'
 import instagram from '../images/instagram.svg'
 import linkedin from '../images/linkedin.svg'
 import medium from '../images/medium.svg'
-import share from '../images/share.svg'
 import twitter from '../images/twitter.svg'
 
 const IndexPage = ({ data }) => (
@@ -38,11 +38,7 @@ const IndexPage = ({ data }) => (
 
     <div class="divided-23" />
     <div className="footer-container">
-      <div className="w-full sm-w1-2">
-        <h4 className="subtoto-depara">Email me at:</h4>
-        <span className="css-1uembe2-Paragraph" >hello@ismail.com</span>
-        <img src={share} className="css-share-mail" />
-      </div>
+      <Email />
       <div className="w-full sm-w1-2">
         <h4 className="subtoto-depara">Follow Me:</h4>
 

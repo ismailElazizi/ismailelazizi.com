@@ -225,8 +225,14 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-right: 32px;
-  margin-bottom: 24px;
+  margin-right: 48px;
+  margin-bottom: 40px;
+}
+@media (min-width: 750px) {
+  .social_links a {
+    margin-right: 32px;
+    margin-bottom: 0px;
+  }
 }
 
 .social_links a:nth-child(1) {
@@ -234,16 +240,16 @@ p {
 }
 
 .sign-12 {
-  padding-bottom: 1rem;
-  font-size: 0.8rem;
+  padding-bottom: 1.8rem;
+  font-size: 1.4rem;
   display: -webkit-inline-box;
   color: #808080;
 }
 
 .divided-end {
   border: 0.5px solid #333333;
-  margin-bottom: 0.6rem;
-  margin-top: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 10rem;
 }
 
 
