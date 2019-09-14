@@ -1,12 +1,16 @@
-import PropTypes from 'prop-types'
-import React from 'react'
-import Header from './header'
-import './layout.css'
+import NavigationFooter from '@components/Navigation/Navigation.Footer';
+import PropTypes from 'prop-types';
+import React from 'react';
+import Header from './header';
+import './layout.css';
 
 const Layout = ({ children }) => (
+  <div>
   <div className="padd-css">
-    <Header />
+    <Header/>
     {children}
+  </div>
+  <NavigationFooter />
   </div>
 )
 

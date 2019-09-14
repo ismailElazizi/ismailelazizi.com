@@ -3,14 +3,14 @@ module.exports = {
     hello: '👋',
     who: 'I Use Design Magic To Turn Ideas Into Great Products.',
     title: 'Ismail Elazizi',
-    name: `Narative`,
+    name: `ismailelazizi`,
     siteUrl: `https://gatsby-theme-novela.netlify.com`,
     description: `This is my description that will be used in the meta tags and important for search results`,
 
     // hero
     // A required key and will be displayed on the main page of Noveal
     hero: {
-      heading: `test on technology, design and business from the team at Narative.`,
+      heading: `You Know! <br> Readers are Leaders`,
       maxWidth: 652,
     },
 
@@ -18,16 +18,25 @@ module.exports = {
     // Add in the social links that will be displayed in the footer
     social: [
       {
-        url: `https://twitter.com/narative`,
+        url: `https://www.dribbble.com/ismailelazizi`,
       },
       {
-        url: `https://github.com/narative`,
+        url: `https://www.instagram.com/ismail_elazizi`,
       },
       {
-        url: `https://www.instagram.com/narative.co/`,
+        url: `https://www.medium.com/@ismailelazizi`,
       },
       {
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://www.github.com/ismailElazizi`,
+      },
+      {
+        url: `https://www.twitter.com/smailelazizi`,
+      },
+      {
+        url: `https://www.facebook.com/smailElazizi`,
+      },
+      {
+        url: `https://www.linkedin.com/in/ismail-el-azizi`,
       },
     ],
   },

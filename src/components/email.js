@@ -3,7 +3,6 @@ import mediaqueries from "@styles/media";
 import { copyToClipboard } from "@utils";
 import React, { useState } from "react";
 import { useColorMode } from "theme-ui";
-import share from '../images/share.svg';
 
 
 
@@ -18,7 +17,7 @@ export default function Email() {
       console.log("copied ");
       
   
-      copyToClipboard("ismailelazizigmail.com");
+      copyToClipboard("smailelazizi@gmail.com");
       setHasCopied(true);
   
       setTimeout(() => {
@@ -31,19 +30,20 @@ export default function Email() {
     return (
         
       
-         <div onClick={copyToClipboardOnClick} className="w-full sm-w1-2">
-             <h4 className="subtoto-depara">Email me at:</h4>
+         <div onClick={copyToClipboardOnClick} className="sm-w1-2">
+
              
              <IconWrapper
                 onClick={copyToClipboardOnClick}
                 data-a11y="false"
                 aria-label="Copy URL to clipboard"
                 >
-                <span className="css-1uembe2-Paragraph" >hello@ismail.com </span>
-                <img src={share} className="css-share-mail" />
+                      <a to="/" className="btn-get-start">
+                    Click to copy Email 
+                    </a>
 
                 <ToolTip isDark={isDark} hasCopied={hasCopied}>
-                    Email Copied
+                    Email Copied 💪
                 </ToolTip>
             </IconWrapper>
           </div>
@@ -92,13 +92,13 @@ export default function Email() {
   
   const ToolTip = styled.div`
     position: absolute;
-    left: 0%;
+    left: 18%;
     padding: 12px 18px;
     background: ${p => (p.isDark ? "#000" : "rgba(0,0,0,0.1)")};
     color: ${p => (p.isDark ? "#fff" : "#000")};
     border-radius: 4px;
     font-size: 18px;
-    top: -52px;
+    top: -24px;
     opacity: ${p => (p.hasCopied ? 1 : 0)};
     transform: ${p => (p.hasCopied ? "translateY(-3px)" : "none")};
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -121,10 +121,9 @@ export default function Email() {
     position: relative;
     z-index: 200000000;
     border-radius: 4px;
-    height: 28px;
-    display: flex;
+    display: -webkit-inline-box;
     transition: opacity 0.3s ease;
-    
+
     cursor:pointer;
     &:hover {
       opacity: 1;
