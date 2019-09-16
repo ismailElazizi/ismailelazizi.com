@@ -199,6 +199,7 @@ p {
   margin: 0 auto 12px;
   width: 100%;
   max-width: 680px;
+  margin: 0px auto 35px;
 }
 
 .css-1uembe2-Paragraph{
@@ -208,6 +209,7 @@ p {
   color: var(--theme-ui-colors-articleText,#fff);
   width: 100%;
   max-width: 680px;
+  margin: 0px auto 35px;
 }
 @media (max-width: 750px){
 .css-1uembe2-Paragraph {
