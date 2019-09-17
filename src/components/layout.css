@@ -72,6 +72,16 @@ p {
   width: 60%;
 }
 
+
+.big-css {
+  font-size: 4.51572rem;
+  line-height: 1.4;
+  color: #ffffff;
+  font-weight: bold;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 66.875em) {
   .hero-css {
     font-size: 4.14355rem;
@@ -213,7 +223,7 @@ p {
 }
 @media (max-width: 750px){
 .css-1uembe2-Paragraph {
-    
+
 }
 }
 
@@ -249,4 +259,9 @@ p {
   .css-copyright {
     text-align: left;
   }
+}
+
+
+p img{
+  width: 100%;
 }
