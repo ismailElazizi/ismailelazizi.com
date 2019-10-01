@@ -23,6 +23,17 @@ const AboutPage = ({ data }) => (
         go we start to draft a map and create a route for how to get there. And
         I call it strategy.
       </p>
+      <h1 className="css-1uembe2-title">Things I enjoy doing!</h1>
+      <p className="css-1uembe2-Paragraph">
+        I really enjoy sharing what I know with others, getting thanks from people asking me question makes my day. 
+      </p>
+
+      <h1 className="css-1uembe2-title">Why I choose design</h1>
+      <p className="css-1uembe2-Paragraph">
+        I start by getting to know you. Once I've figured out where you want to
+        go we start to draft a map and create a route for how to get there. And
+        I call it strategy.
+      </p>
     </div>
   </Layout>
 )

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     hello: '👋',
-    who: 'I Use Design Magic To Turn Ideas Into Great Products.',
+    who: 'I am Ismail, I Use Design Magic To Turn Ideas Into Great Products.',
     title: 'Ismail Elazizi',
     name: `ismailelazizi`,
     siteUrl: `https://gatsby-theme-novela.netlify.com`,
