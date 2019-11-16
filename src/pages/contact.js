@@ -1,15 +1,16 @@
 import React from 'react'
+import Email from '../components/email'
 import Layout from '../components/layout'
 
 const ContactPage = ({ data }) => (
   <Layout>
     <div className="who">
-      <h1 className="css-1uembe2-title">I really like to talk to people! Say Hi!</h1>
+      <h1 className="hero-css"> I really like to talk to people! <br/> Say Hi!</h1>
       <p className="css-1uembe2-Paragraph">
-        Ok. I know you are busy so I'll get straight to the point. I am a
-        passionate UI/UX designer from Morocco. We help people create friendly
-        website and application. That's it really. But if you want to know more
-        you can click on some links. Or don't. It's your life.
+      Thanks for stopping by! If you’re interested in getting in touch about contract work, consulting, speaking, or just to chat, please reach out by e-mail or <a href="https://twitter.com/smailelazizi" target="_blank">Twitter</a>.
+      <Email />
+
+
       </p>
     </div>
   </Layout>

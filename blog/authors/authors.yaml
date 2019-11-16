@@ -4,8 +4,10 @@
   avatar: ./hero.png
   featured: true
   social:
-    - url: https://unsplash.com
-    - url: https://facebook.com
-    - url: https://twitter.com
-    - url: https://github.com
-    - url: https://github.com
+    - url: https://unsplash.com/@ismail_elazizi
+    - url: https://www.facebook.com/smailElazizi
+    - url: https://twitter.com/smailelazizi
+    - url: https://github.com/ismailElazizi
+    - url: https://dribbble.com/ismailelazizi
+    - url: https://instagram.com/ismail_Elazizi
+

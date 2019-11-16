@@ -21,6 +21,7 @@ body {
 
 p {
   color: #ffffff;
+  margin: 0;
 }
 
 .padd-css {
@@ -219,7 +220,7 @@ p {
   color: var(--theme-ui-colors-articleText,#fff);
   width: 100%;
   max-width: 680px;
-  margin: 0px auto 35px;
+  margin-bottom: 6rem;
 }
 @media (max-width: 750px){
 .css-1uembe2-Paragraph {
@@ -264,4 +265,7 @@ p {
 
 p img{
   width: 100%;
+}
+a {
+  color: #ffffff;
 }
