@@ -188,12 +188,13 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-right: 48px;
+  margin-right: 40px;
   margin-bottom: 40px;
+  padding: 8px;
 }
 @media (min-width: 750px) {
   .social_links a {
-    margin-right: 32px;
+    margin-right: 26px;
     margin-bottom: 0px;
   }
 }
@@ -268,4 +269,9 @@ p img{
 }
 a {
   color: #ffffff;
+}
+
+.social_links img:hover{
+  opacity: 50%;
+  transform: scale3d(0.96, 0.96, 0.96);
 }

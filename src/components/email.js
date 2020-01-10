@@ -39,7 +39,7 @@ export default function Email() {
                 aria-label="Copy URL to clipboard"
                 >
                       <a to="/" className="btn-get-start">
-                    Click to copy Email 
+                    Click to copy my Email 
                     </a>
 
                 <ToolTip isDark={isDark} hasCopied={hasCopied}>
