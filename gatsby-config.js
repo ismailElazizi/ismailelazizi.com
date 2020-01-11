@@ -19,24 +19,31 @@ module.exports = {
     social: [
       {
         url: `https://www.dribbble.com/ismailelazizi`,
+        name: 'dribbble',
       },
       {
         url: `https://www.instagram.com/ismail_elazizi`,
+        name: 'instagram',
       },
       {
         url: `https://www.medium.com/@ismailelazizi`,
+        name: 'medium',
       },
       {
         url: `https://www.github.com/ismailElazizi`,
+        name: 'github',
       },
       {
         url: `https://www.twitter.com/smailelazizi`,
+        name: 'twitter',
       },
       {
         url: `https://www.facebook.com/smailElazizi`,
+        name: 'facebook',
       },
       {
         url: `https://www.linkedin.com/in/ismail-el-azizi`,
+        name: 'linkedin',
       },
     ],
   },
