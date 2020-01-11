@@ -272,6 +272,6 @@ a {
 }
 
 .social_links a:hover{
-  opacity: 50%;
+  opacity: 0.5;
   transform: scale3d(0.96, 0.96, 0.96);
 }
