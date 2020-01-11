@@ -7,12 +7,10 @@ export default {
     ...novelaTheme.colors,
     modes: {
         dark: {
-            ...novelaTheme.colors.modes.dark, 
+            ...novelaTheme.colors.modes.dark,
+            accent: "#f9e09e",  
             gradient:
         "linear-gradient(180deg, #111216 0%, #111216 100%)",  
-        secondary: '#73737D',
-        accent: '#f9e09e',
-        grey: '#73737D',
         }
     }
 
