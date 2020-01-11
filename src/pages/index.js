@@ -20,12 +20,11 @@ const IndexPage = ({ data }) => (
       ))}
     </div>
 
-    <div class="divided-23" />
+    <div className="divided-23" />
     <div className="callAction">
       <h3 className="hero-css contactH">Got a project? Let’s talk</h3>
       <Email />
     </div>
-
   </Layout>
 )
 

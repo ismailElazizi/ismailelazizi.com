@@ -19,30 +19,36 @@ module.exports = {
     social: [
       {
         url: `https://www.dribbble.com/ismailelazizi`,
+        name: 'dribbble',
       },
       {
         url: `https://www.instagram.com/ismail_elazizi`,
+        name: 'instagram',
       },
       {
         url: `https://www.medium.com/@ismailelazizi`,
+        name: 'medium',
       },
       {
         url: `https://www.github.com/ismailElazizi`,
+        name: 'github',
       },
       {
         url: `https://www.twitter.com/smailelazizi`,
+        name: 'twitter',
       },
       {
         url: `https://www.facebook.com/smailElazizi`,
+        name: 'facebook',
       },
       {
         url: `https://www.linkedin.com/in/ismail-el-azizi`,
+        name: 'linkedin',
       },
     ],
   },
 
   plugins: [
-
     'gatsby-plugin-react-helmet',
     {
       resolve: '@narative/gatsby-theme-novela',
@@ -50,14 +56,14 @@ module.exports = {
         contentPath: 'blog/posts',
         contentPosts: 'blog/posts',
         contentAuthors: 'blog/authors',
-        basePath: 'blog/',
+        basePath: 'blog',
         authorsPage: true,
         sources: {
           local: true,
         },
       },
     },
-     {
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
@@ -66,9 +72,9 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/favicon.png', 
+        icon: 'src/images/favicon.png',
       },
-    }, 
+    },
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-source-filesystem`,
