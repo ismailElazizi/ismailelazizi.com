@@ -42,7 +42,6 @@ module.exports = {
   },
 
   plugins: [
-
     'gatsby-plugin-react-helmet',
     {
       resolve: '@narative/gatsby-theme-novela',
@@ -50,14 +49,14 @@ module.exports = {
         contentPath: 'blog/posts',
         contentPosts: 'blog/posts',
         contentAuthors: 'blog/authors',
-        basePath: 'blog/',
+        basePath: 'blog',
         authorsPage: true,
         sources: {
           local: true,
         },
       },
     },
-     {
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
@@ -66,9 +65,9 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/favicon.png', 
+        icon: 'src/images/favicon.png',
       },
-    }, 
+    },
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-source-filesystem`,
