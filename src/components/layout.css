@@ -271,7 +271,7 @@ a {
   color: #ffffff;
 }
 
-.social_links img:hover{
+.social_links a:hover{
   opacity: 50%;
   transform: scale3d(0.96, 0.96, 0.96);
 }
