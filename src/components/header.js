@@ -11,14 +11,14 @@ const Header = () => (
       </Link>
     </div>
 
-    <div class="dropdown-menu">
+    <div className="dropdown-menu">
       <input type="checkbox" id="checkbox" />
-      <label id="burger" for="checkbox">
+      <label id="burger" htmlFor="checkbox">
         <span>&nbsp;</span>
         <span>&nbsp;</span>
         <span>&nbsp;</span>
       </label>
-      <div class="menu-content">
+      <div className="menu-content">
         <ul>
           <li>
             <Link to="/" className="menu_ele">
