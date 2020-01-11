@@ -5,3 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+
+// force dark mode : ( maybe a theme issue)
+exports.onInitialClientRender = () => {
+  localStorage.setItem('theme-ui-color-mode', 'dark')
+}

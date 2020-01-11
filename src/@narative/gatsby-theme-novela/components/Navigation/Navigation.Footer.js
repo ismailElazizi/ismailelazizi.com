@@ -1,10 +1,8 @@
-import Section from "@components/Section";
-import styled from "@emotion/styled";
-import { graphql, useStaticQuery } from "gatsby";
-import React from "react";
-import Customfooter from '../../../../components/customfooter';
-
-
+import Section from '@components/Section'
+import styled from '@emotion/styled'
+import { graphql, useStaticQuery } from 'gatsby'
+import React from 'react'
+import Customfooter from '../../../../components/customfooter'
 
 const siteQuery = graphql`
   {
@@ -21,29 +19,25 @@ const siteQuery = graphql`
       }
     }
   }
-`;
+`
 
 function Footer() {
-  const results = useStaticQuery(siteQuery);
-  const { name, social } = results.allSite.edges[0].node.siteMetadata;
+  const results = useStaticQuery(siteQuery)
+  const { name, social } = results.allSite.edges[0].node.siteMetadata
 
   return (
     <>
-
       <Section narrow>
         <FooterContainer>
-          <Customfooter/>
+          <Customfooter />
         </FooterContainer>
       </Section>
     </>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
 
 const FooterContainer = styled.div`
   position: relative;
-
-  
-`;
-
+`
