@@ -8,7 +8,7 @@ const Project = ({
   },
 }) => (
   <div className="post-item">
-    <a className="post-link" href={path} target="_blank">
+    <a className="post-link" href={path} target="_blank" rel="noopener noreferrer">
       <Img className="coverImg" fluid={cover_image.childImageSharp.fluid} />
       <span className="post-title">{title}</span>
       <span className="post-type">{type}</span>

@@ -7,7 +7,7 @@ const AboutPage = ({ data }) => (
     <div className="who">
       <p className="css-1uembe2-Paragraph">
         <h1 className="big-css">So, You Wanna Know About me!</h1>
-        <img src={Portrait} />
+        <img src={Portrait} alt="Ismail El Azizi"/>
       </p>
 
       <p className="css-1uembe2-Paragraph">

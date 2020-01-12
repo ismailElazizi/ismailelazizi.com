@@ -15,32 +15,32 @@ const Customfooter = () => (
     <div className="footer-container">
       <div className="w-full sm-w1-2">
         <div className="social_links">
-          <a href="https://www.dribbble.com/ismailelazizi" target="_blank">
-            <img src={dribbble} className="css-icons-sttl" />
+          <a href="https://www.dribbble.com/ismailelazizi" target="_blank" rel="noopener noreferrer">
+            <img src={dribbble} className="css-icons-sttl" alt="dribbble"/>
           </a>
-          <a href="https://www.behance.net/ismailelazizi" target="_blank">
-            <img src={behance} className="css-icons-sttl" />
+          <a href="https://www.behance.net/ismailelazizi" target="_blank" rel="noopener noreferrer">
+            <img src={behance} className="css-icons-sttl" alt="behance"/>
           </a>
-          <a href="https://www.instagram.com/ismail_elazizi" target="_blank">
-            <img src={instagram} className="css-icons-sttl" />
+          <a href="https://www.instagram.com/ismail_elazizi" target="_blank" rel="noopener noreferrer">
+            <img src={instagram} className="css-icons-sttl" alt="instagram" />
           </a>
-          <a href="https://www.medium.com/@ismailelazizi" target="_blank">
-            <img src={medium} className="css-icons-sttl" />
+          <a href="https://www.medium.com/@ismailelazizi" target="_blank" rel="noopener noreferrer">
+            <img src={medium} className="css-icons-sttl" alt="medium" />
           </a>
-          <a href="https://www.github.com/ismailElazizi" target="_blank">
-            <img src={github} className="css-icons-sttl" />
+          <a href="https://www.github.com/ismailElazizi" target="_blank"  rel="noopener noreferrer">
+            <img src={github} className="css-icons-sttl" alt="github"/>
           </a>
-          <a href="https://www.twitter.com/smailelazizi" target="_blank">
-            <img src={twitter} className="css-icons-sttl" />
+          <a href="https://www.twitter.com/smailelazizi" target="_blank" rel="noopener noreferrer">
+            <img src={twitter} className="css-icons-sttl" alt="twitter"/>
           </a>
-          <a href="https://www.facebook.com/smailElazizi" target="_blank">
-            <img src={facebook} className="css-icons-sttl" />
+          <a href="https://www.facebook.com/smailElazizi" target="_blank" rel="noopener noreferrer">
+            <img src={facebook} className="css-icons-sttl" alt="facebook"/>
           </a>
           <a
             href="https://www.linkedin.com/in/ismail-el-azizi/"
-            target="_blank"
+            target="_blank"  rel="noopener noreferrer"
           >
-            <img src={linkedin} className="css-icons-sttl" />
+            <img src={linkedin} className="css-icons-sttl" alt="linkedin"/>
           </a>
         </div>
       </div>

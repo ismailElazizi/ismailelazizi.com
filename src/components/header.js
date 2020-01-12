@@ -7,7 +7,7 @@ const Header = () => (
   <header className="header">
     <div className="css-icons-sttl">
       <Link to="/">
-        <img src={logo} className="css-icons-sttl" />
+        <img src={logo} className="css-icons-sttl" alt="logo"/>
       </Link>
     </div>
 

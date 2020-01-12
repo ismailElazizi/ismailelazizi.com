@@ -83,6 +83,12 @@ module.exports = {
         name: 'projects',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
