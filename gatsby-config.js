@@ -4,7 +4,7 @@ module.exports = {
     who: 'I am Ismail, I Use Design Magic To Turn Ideas Into Great Products.',
     title: 'Ismail Elazizi',
     name: `ismailelazizi`,
-    siteUrl: `https://gatsby-theme-novela.netlify.com`,
+    siteUrl: `https://ismailelazizi.com`,
     description: `This is my description that will be used in the meta tags and important for search results`,
 
     // hero
