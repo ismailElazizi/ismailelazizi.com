@@ -5,7 +5,7 @@ module.exports = {
     title: 'Ismail Elazizi',
     name: `ismailelazizi`,
     siteUrl: `https://ismailelazizi.com`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `I Use Design Magic To Turn Ideas Into Great Products.`,
 
     // hero
     // A required key and will be displayed on the main page of Noveal
